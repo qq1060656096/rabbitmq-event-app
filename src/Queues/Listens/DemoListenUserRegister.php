@@ -1,0 +1,19 @@
+<?php
+namespace Zwei\RabbitMqEventApp\Queues\Listens;
+
+/**
+ * ¼àÌýÓÃ»§×¢²á
+ * Class DemoListenUserRegister
+ * @package Zwei\RabbitMqEventApp\Queues\Listens
+ */
+class DemoListenUserRegister {
+
+    /**
+     * ¼àÌýÓÃ»§×¢²á
+     *
+     * @param array $message
+     */
+    public static function listRegister($message) {
+
+    }
+}

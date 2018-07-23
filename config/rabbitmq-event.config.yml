@@ -1,11 +1,11 @@
 mongodb: # mongodb配置
-  is_auth: false
-  user: "" # 用户
-  pass: "" # 密码
-  dbname: "event" # 数据库
+  is_auth: true
+  user: "adminUser" # 用户
+  pass: "adminPass" # 密码
+  dbname: "admin" # 数据库
   collection: "event_log" # 集合名
   hosts:
-    - "localhost:27017" # 主机名:端口号(例如"localhost:27017")
+    - "139.199.167.112:27017" # 主机名:端口号(例如"localhost:27017")
 rabbit_mq: # rabbit mq 配置
   host: "139.199.167.112" # 主机
   port: "5672" # 端口
