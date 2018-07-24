@@ -1,5 +1,6 @@
 <?php
 namespace Zwei\RabbitMqEventApp\Queues\Standards;
+
 use Zwei\RabbitMqEvent\Queue\CallbackResult;
 use Zwei\RabbitMqEvent\Queue\Code;
 

@@ -1,19 +1,24 @@
 <?php
 namespace Zwei\RabbitMqEventApp\Queues\Listens;
 
+use Zwei\RabbitMqEvent\Queue\CallbackResult;
+
 /**
- * ¼àÌýÓÃ»§×¢²á
+ * ç›‘å¬ç”¨æˆ·æ³¨å†Œ
  * Class DemoListenUserRegister
  * @package Zwei\RabbitMqEventApp\Queues\Listens
  */
 class DemoListenUserRegister {
 
     /**
-     * ¼àÌýÓÃ»§×¢²á
+     * ç›‘å¬ç”¨æˆ·æ³¨å†Œ
      *
      * @param array $message
+     * @return CallbackResult
      */
     public static function listRegister($message) {
 
+        $return = new CallbackResult(Code::SUCCESS, $message, "æˆåŠŸ");
+        return $return;
     }
 }
