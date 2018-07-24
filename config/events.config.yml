@@ -1,4 +1,4 @@
-event_user_register: # 测试用户注册成功
+event_demo_user_register: # 测试用户注册成功
   queue_key: "rabbit_queue_single" # 普通队列名
   callback: "\\Zwei\\RabbitMqEventApp\\Queues\\Standards\\DemoUserRegister::register" # 回调
   forward: false # 是否转发

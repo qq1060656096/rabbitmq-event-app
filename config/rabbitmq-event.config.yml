@@ -1,7 +1,7 @@
 mongodb: # mongodb配置
   is_auth: true
-  user: "adminUser" # 用户
-  pass: "adminPass" # 密码
+  user: "adminUser1" # 用户
+  pass: "adminPass1" # 密码
   dbname: "admin" # 数据库
   collection: "event_log" # 集合名
   hosts:

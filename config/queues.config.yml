@@ -1,12 +1,33 @@
-rabbit_event_queue_console: # 重启队列
+rabbit_queue_console: # 重启队列
   route_key: "route_console" # 路由key
+
+rabbit_queue_ping: # ping队列
+  route_key: "route_ping" # 路由key
+
+# ************************
+# *** 网管队列【请不要删除】
+# ************************
 
 rabbit_queue_gateway: # 网管队列
   route_key: "route_gateway" # 路由key
-  num: 1 # 单消费者队列
 
-rabbit_queue_single : # 单队列
+# ************************
+# *** 普通队列【标准队列】
+# ************************
+
+rabbit_queue_single: # [普通队列key]单队列
+  queue_type: "standard" # 普通队列(即标准队列)
   route_key: route_single # 路由key
   forward: false # 是否转发,false 不转发, true 转发
   forward_queue_key: "" # 转发队列key
-  num: 1 # 单消费者队列
+
+# ************************
+# *** 监听队列
+# ************************
+
+rabbit_listen_queue_demo_user_register: # [监听队列key]监听注册用户示例
+  queue_type: "listen" # 队列类型
+  route_key: rabbit_listen_queue_demo_user_register # 路由key
+  forward: false # 是否转发,false 不转发, true 转发
+  forward_queue_key: "" # 转发队列key
+  callback: "\\Zwei\\RabbitMqEventApp\\Queues\\Standards\\DemoUserRegister::register" # 回调

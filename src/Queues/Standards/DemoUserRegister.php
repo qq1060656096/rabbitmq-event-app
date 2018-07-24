@@ -1,21 +1,24 @@
 <?php
 namespace Zwei\RabbitMqEventApp\Queues\Standards;
+use Zwei\RabbitMqEvent\Queue\CallbackResult;
+use Zwei\RabbitMqEvent\Queue\Code;
 
 /**
- * ²âÊÔÓÃ»§×¢²áÊÂ¼þ
+ * æµ‹è¯•ç”¨æˆ·æ³¨å†Œäº‹ä»¶
  * Class DemoUserRegister
  * @package Zwei\RabbitMqEventApp\Queues\Standards
  */
 class DemoUserRegister {
 
     /**
-     * ÓÃ»§×¢²á
+     * ç”¨æˆ·æ³¨å†Œ
      *
-     * @param array ÊÂ¼þÄÚÈÝ
-     *
+     * @param array äº‹ä»¶å†…å®¹
+     * @return CallbackResult
      */
     public static function register($message) {
-        $return = [];
+
+        $return = new CallbackResult(Code::SUCCESS, $message, "æˆåŠŸ");
         return $return;
     }
 }
