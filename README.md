@@ -1,4 +1,4 @@
-# rabbitmq-event-app
+# Rabbitmq Event App
 Rabbitmq Event App 是Rabbitmq Event的示例
 
 > 业务频繁的变动，频繁增减活动，导致开发修改现有的业务逻辑，造成程序很混乱，质量无法保证。
@@ -45,16 +45,16 @@ Rabbitmq Event App 是Rabbitmq Event的示例
 
 入门
 ----
-* **已定稿** [关于(Intro)](dev/md/0.0-INTRO.md)
-* **已定稿** [安装(Install)](dev/md/1.0-INSTALL.md)
-* **已定稿** [安装 Mongodb(Install Mongodb)](dev/md/1.1-INSTALL-MONGODB.md)
-* **已定稿** [安装 Rabbitmq(Install Rabbitmq)](dev/md/1.2-INSTALL-RABBITMQ.md)
-* **已定稿** [安装 PHP Rabbitmq扩展(Install Rabbitmq)](dev/md/1.3-INSTALL-PHP-RABBITMQ-EXT.md)
-* **已定稿** [安装 PHP Mongo 扩展(Install PHP Mongo)](dev/md/1.4-INSTALL-PHP-MONGO-EXT.md)
+* **已定稿** [关于(Intro)](docs/md/0.0-INTRO.md)
+* **已定稿** [安装(Install)](docs/md/1.0-INSTALL.md)
+* **已定稿** [安装 Mongodb(Install Mongodb)](docs/md/1.1-INSTALL-MONGODB.md)
+* **已定稿** [安装 Rabbitmq(Install Rabbitmq)](docs/md/1.2-INSTALL-RABBITMQ.md)
+* **已定稿** [安装 PHP Rabbitmq扩展(Install Rabbitmq)](docs/md/1.3-INSTALL-PHP-RABBITMQ-EXT.md)
+* **已定稿** [安装 PHP Mongo 扩展(Install PHP Mongo)](docs/md/1.4-INSTALL-PHP-MONGO-EXT.md)
 * **已定稿** -- 分割线 --
-* **已定稿** [应用结构(Application)](dev/md/2.0-APPLICATION-STRUCT.md)
-* **已定稿** [普通队列配置(Standard Queue Configuration)](dev/md/3.0-STANDARD-QUEUE.md)
-* **已定稿** [事件配置(Event Configuration)](dev/md/4.0-EVENT.md)
-* **已定稿** [启动网管(Start Gateway)](dev/md/4.5-START-GATEWAY.md)
-* **已定稿** [监听队列配置(Listen Queue Configuration)](dev/md/5.0-LISTEN-QUEUE.md)
-* **已定稿** [计划任务配置(Cron Configuration)](dev/md/6.0-CRON.md)
+* **已定稿** [应用结构(Application)](docs/md/2.0-APPLICATION-STRUCT.md)
+* **已定稿** [普通队列配置(Standard Queue Configuration)](docs/md/3.0-STANDARD-QUEUE.md)
+* **已定稿** [事件配置(Event Configuration)](docs/md/4.0-EVENT.md)
+* **已定稿** [启动网管(Start Gateway)](docs/md/4.5-START-GATEWAY.md)
+* **已定稿** [监听队列配置(Listen Queue Configuration)](docs/md/5.0-LISTEN-QUEUE.md)
+* **已定稿** [计划任务配置(Cron Configuration)](docs/md/6.0-CRON.md)
