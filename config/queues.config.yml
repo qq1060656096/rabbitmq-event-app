@@ -1,8 +1,9 @@
-rabbit_queue_console: # 重启队列
+# ************************
+# *** 控制队列【请不要删除】
+# ************************
+rabbit_queue_console: # 控制队列
   route_key: "route_console" # 路由key
 
-rabbit_queue_ping: # ping队列
-  route_key: "route_ping" # 路由key
 
 # ************************
 # *** 网管队列【请不要删除】

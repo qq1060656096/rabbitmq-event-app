@@ -9,8 +9,7 @@
 * **已定稿** [安装 Rabbitmq(Install Rabbitmq)](1.2-INSTALL-RABBITMQ.md)
 * **已定稿** [安装 PHP Rabbitmq扩展(Install Rabbitmq)](1.3-INSTALL-PHP-RABBITMQ-EXT.md)
 * **已定稿** [安装 PHP Mongo 扩展(Install PHP Mongo)](1.4-INSTALL-PHP-MONGO-EXT.md)
-
-
+* **已定稿** -- 分割线 --
 * **已定稿** [应用结构(Application)](2.0-APPLICATION-STRUCT.md)
 * **已定稿** [普通队列配置(Standard Queue Configuration)](3.0-STANDARD-QUEUE.md)
 * **已定稿** [事件配置(Event Configuration)](4.0-EVENT.md)

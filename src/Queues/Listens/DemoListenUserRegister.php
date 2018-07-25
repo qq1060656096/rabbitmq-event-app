@@ -17,7 +17,7 @@ class DemoListenUserRegister {
      * @return CallbackResult
      */
     public static function listRegister($message) {
-
+        print_r($message);
         $return = new CallbackResult(Code::SUCCESS, $message, "成功");
         return $return;
     }
